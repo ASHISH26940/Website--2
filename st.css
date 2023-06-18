@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    border: 0px;
+    border:0px;
+    overflow-x: hidden;
+}
+    
+.tst1{
+    background-color: aqua;
+    width:100vw;
+    height:100vh;
+}
+.tst-2{
+    background-color: bisque;
+    width:100vw;
+    height:100vh;
+}
