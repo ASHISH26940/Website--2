@@ -1,17 +1,143 @@
 body{
-    margin: 0px;
-    border: 0px;
-    border:0px;
-    overflow-x: hidden;
+    margin:0;
+    overflow-x:hidden;
+}
+
+    
+.pg-1{
+    background-color: #f6f6f6;
+   width: 100vw;
+   height:100vh;
+}
+
+.txt-1{
+    position: absolute;
+    width: 958px;
+    height: 176px;
+    left: 244px;
+    top: 50%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    
+    color: #000000;
+    
 }
     
-.tst1{
-    background-color: aqua;
-    width:100vw;
+    .rec-2{
+        background: rgba(0, 0, 0, 0.65);
+        border-radius:50px;
+        height:40px;
+        left:254px;
+        position:absolute;
+        top:70%;
+        width:145px;
+    }
+    .rec-2-1{
+        position: absolute;
+    width: 145px;
+    height: 40px;
+    left: 463px;
+    top: 70%;
+    
+    background: #F2EDED;
+    border-radius: 50px;
+    }
+    
+    .txt-3{
+        position: absolute;
+        width: 120px;
+        height: 17px;
+        left: 304px;
+        top: 72%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    }
+    
+    .txt-4{
+        position: absolute;
+    width: 155px;
+    height: 17px;
+    left: 481px;
+    top: 72%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #000000;
+    }
+    
+    
+    
+    .txt-2{
+    position: absolute;
+    width: 438px;
+    height: 47px;
+    left: 244px;
+    top: 60%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    
+    color: rgba(0, 0, 0, 0.26);
+    }
+
+.img-1{
     height:100vh;
+    border-left-width:90%;
+    float:right;
 }
-.tst-2{
-    background-color: bisque;
-    width:100vw;
+
+
+
+.pg-2
+{
+    align-items: flex-start;
+    background-color: #f6f6f6;
+    border: none;
+    display:flex;
     height:100vh;
+    padding:134px 114px;
+    width:100vw;
+    overflow: hidden;
+}
+
+
+
+.img-2{
+    border:0;
+}
+
+.txt-5{
+    align-self: flex-start;
+    color:rgba(0,0,0,1);
+    font-family: 'Inter';
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    height:313px;
+    width:872px;
+}
+
+.row{
+    align-items: flex-start;
+    display: flex;
+    gap:88px;
+    height:389px;
+    margin-left: 114px;
+    margin-top: 134px;
+    min-width: 1382px;
 }

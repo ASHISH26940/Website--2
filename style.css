@@ -1,49 +1,22 @@
-*{
-    margin:0;
-    padding:0;
-    border: 0px;
-    border-radius:0px;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Irish+Grover&display=swap");
+
+body{
     overflow-x: hidden;
 }
 
-
-.main{
-    height:100vh;
-    width:100vw;
-    background-color: #F6F6F6;
-    float: left;
-}
-
-
-.pg-2{
-    background-color: #F6F6F6;
-    width: 100vw;
-    height: 100vh;
-    top:0px;
+.pg-1{
     position: relative;
-    overflow: hidden;
+    width:100vw;
+    height:100vh;
+    background-color: #F6F6F6;
 }
 
-.img-1
-{
-position: relative;
-height:100vh;
-width:100vw;
-left:30%;
-border:0%;
-top: 0%;
-border-radius: 50px;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.txt-1
-{
+.txt-1{
 position: absolute;
-height:100vh;
-width:100vw;
+width: 958px;
+height: 176px;
 left: 244px;
-top: 40%;
+top: 576px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -52,14 +25,66 @@ font-size: 44px;
 line-height: 53px;
 
 color: #000000;
+
 }
+
+.rec-2{
+    background: rgba(0, 0, 0, 0.65);
+    border-radius:50px;
+    height:40px;
+    left:254px;
+    position:absolute;
+    top:695px;
+    width:145px;
+}
+.rec-2-1{
+    position: absolute;
+width: 145px;
+height: 40px;
+left: 463px;
+top: 695px;
+
+background: #F2EDED;
+border-radius: 50px;
+}
+
+.txt-3{
+    position: absolute;
+    width: 120px;
+    height: 17px;
+    left: 304px;
+    top: 707px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+}
+
+.txt-4{
+    position: absolute;
+width: 155px;
+height: 17px;
+left: 481px;
+top: 707px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #000000;
+}
+
+
 
 .txt-2{
     position: absolute;
-    height:100vh;
-    width:100vw;
-    left: 244px;
-    top: 45%;
+width: 438px;
+height: 47px;
+left: 244px;
+top: 621px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -70,99 +95,57 @@ line-height: 53px;
 color: rgba(0, 0, 0, 0.26);
 }
 
-.rec-2{
+.img-1{
     position: absolute;
-width: 145px;
-height: 40px;
-left: 279px;
-top: 55vh;
+    width: 600px;
+    height: 1323px;
+    left: 460px;
+    top: 109px;
 
-background: rgba(0, 0, 0, 0.65);
-border-radius: 50px;
-}
-.rec-2:hover{
-    background:#F2EDED;
-}
-
-.txt-3{
-    position: absolute;
-    width: 145px;
-    height: 40px;
-    left: 290px;
-    top: 57vh;
-    
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-
-color: #FFFFFF;
-}
-
-.txt-3:hover{
-    background: rgba(0, 0, 0, 0.65);
-}
-
-.rec-3
-{
-    position: absolute;
-    width: 145px;
-    height: 40px;
-    left: 434px;
-    top: 55vh;
-    
-    background: #F2EDED;
     border-radius: 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 
 
-.txt-4{
-    position: absolute;
-    width: 145px;
-    height: 40px;
-    left: 451px;
-    top: 57vh;
-    
+-------------------2nd-----------------
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-
-color: #000000;
+.pg-2
+{
+    align-items: flex-start;
+    background-color: #F6F6F6;
+    border: none;
+    display:flex;
+    height:100vh;
+    padding:134px 114px;
+    width:100vw;
+    overflow: hidden;
 }
+
+
 
 .img-2{
-position: relative;
-width: 422px;
-height: 330px;
-left: 114px;
-top: 134px;
-border:0px;
-
+    border:0;
 }
 
-p.txt-5{
-display: flex;
-position: relative;
-width: 100vw;
-height:100vh;
-left: 600px;
-word-wrap: break-word;
-
-font-family: 'Inria Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 53px;
-
-color: #000000;
+.txt-5{
+    align-self: flex-start;
+    color:rgba(0,0,0,1);
+    font-family: Inter;
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    height:313px;
+    width:872px;
 }
-p.word{
-    word-wrap: break-word;
-    display:inline-block
+
+.row{
+    align-items: flex-start;
+    display: flex;
+    gap:88px;
+    height:389px;
+    margin-left: 114px;
+    margin-top: 134px;
+    min-width: 1382px;
 }
